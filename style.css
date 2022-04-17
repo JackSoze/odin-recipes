@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background: #1f2937;
+    justify-content: space-between;
+    padding: 50px 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e5e7eb;
+}
+.header img {
+    width: 250px;
+    height: auto;
+}
